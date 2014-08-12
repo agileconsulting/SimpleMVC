@@ -2,9 +2,7 @@ SimpleMVC
 =========
 
 Create a simplest MVC using only Servlet JSP and JDBC.
-Business Case 
-We use :
-Modes simple pojo+ jdbc
+We use simple pojo+jdbc as model, JSP for View and servlet as controller
 ## Table of contents
 - [Business Use Case](#business-use-case)
 - [Add Oracle Jdbc Driver](#add-oracle-jdbc-driver)
