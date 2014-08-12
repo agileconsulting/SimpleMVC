@@ -13,7 +13,8 @@ Modes simple pojo+ jdbc
 Unfortunately you can't find a jdbc driver in any maven repository so you have to manually add in your local maven repository with this command line
 
 ```
-mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 \ -Dversion=10.2.0.3 -Dpackaging=jar -Dfile=ojdbc14.jar -DgeneratePom=true
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 \
+-Dversion=10.2.0.3 -Dpackaging=jar -Dfile=ojdbc14.jar -DgeneratePom=true
 ```
 
 ## Data Model
